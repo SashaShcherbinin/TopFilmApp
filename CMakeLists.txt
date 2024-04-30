@@ -3,4 +3,6 @@ project(TopFilm)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(TopFilm main.cpp)
+add_executable(TopFilm main.cpp
+        src/task/file/FileMain.h
+)
